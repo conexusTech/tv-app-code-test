@@ -1,0 +1,75 @@
+/* src/App.css */
+
+/* Basic styles for the App component */
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Styling the navigation menu */
+.NavigationMenu {
+  background-color: #222;
+  padding: 10px;
+}
+
+.NavigationMenu ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.NavigationMenu li {
+  margin-right: 20px;
+}
+
+.NavigationMenu a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Main content area */
+.MainContent {
+  flex: 1;
+  padding: 20px;
+}
+
+/* Live TV layout */
+.LiveTV {
+  display: flex;
+}
+
+/* Channel list styles */
+.ChannelList {
+  width: 30%;
+  overflow-y: auto;
+}
+
+.ChannelItem {
+  display: flex;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.ChannelItem img {
+  width: 80px;
+  height: 45px;
+  margin-right: 10px;
+}
+
+/* Video player styles */
+.VideoPlayer {
+  flex: 1;
+  padding-left: 20px;
+}
+
+.VideoPlaceholder {
+  background-color: #000;
+  height: 360px;
+  margin-top: 10px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
